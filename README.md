@@ -46,6 +46,8 @@ int main() {
 
   std::cout << "Enter an operation (+, -, *, /): ";
   std::cin >> operation;
+
+  [...]
 ```
 
 

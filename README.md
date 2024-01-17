@@ -23,6 +23,32 @@ int main() {
 
 `std::cin`:
 
+- From the `<istream>` library. In C++11 and C++14 `cout` and `cin` can be used from `<iostream>`. In C++98 it might not be included, so to make a portable code might as well add it, if the program needs to run in different machines and compilers.
+- Controls the input of a **stream buffer** (See vocabulary, stream buffer).
+- Any formatted input operation on `std::cin` forces a call to `std::cout.flush()` if any **char** are pending for output.
+
+Example:
+
+```cpp
+#include <iostream>
+#include <ostream>  // Only necessary in C++98,3
+#include <istream>  // Only necessary in C++98,3
+
+int main() {
+  double d1, d2;
+  char operation;
+
+  std::cout << "Enter first Number: ";
+  std::cin >> d1;
+
+  std::cout << "Enter second Number: ";
+  std::cin >> d2;
+
+  std::cout << "Enter an operation (+, -, *, /): ";
+  std::cin >> operation;
+```
+
+
 `std::wcout` and `std::wcin`:
 
 `std::endl`:

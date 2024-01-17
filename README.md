@@ -4,7 +4,7 @@ This repository contains begineer C++ projects to learn the fundamentals of the 
 
 ### Commands
 
-`std::cout`: 
+#### std::cout: 
 
 - From the `<ostream>` library. In C++11 and C++14 `cout` and `cin` can be used from `<iostream>`. In C++98 it might not be included, so to make a portable code might as well add it, if the program needs to run in different machines and compilers.
 - Represents the **standard output stream** oriented to narrow characters (of type **char**).
@@ -21,7 +21,7 @@ int main() {
 }
 ```
 
-`std::cin`:
+#### std::cin:
 
 - From the `<istream>` library. In C++11 and C++14 `cout` and `cin` can be used from `<iostream>`. In C++98 it might not be included, so to make a portable code might as well add it, if the program needs to run in different machines and compilers.
 - Controls the input of a **stream buffer** (See vocabulary, stream buffer).
@@ -57,7 +57,7 @@ int main() {
 
 `flush()`:
 
-`while(){}`:
+#### while(){}:
 
 - Use a while loop when you want to check the loop condition **before** entering the loop body.
 - It may be more suitable when there is a chance that the loop body might not need to be executed at all.
@@ -73,7 +73,7 @@ while (i < 5) {
 }
 ```
 
-  `do{}while();`
+#### do{}while();
 
 - Use a **do-while** loop when you want to ensure that the loop body is executed **at least once before checking** the loop condition.
 - It's useful when you want to guarantee that a block of code runs before the condition is tested.

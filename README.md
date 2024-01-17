@@ -14,7 +14,7 @@ This repository contains begineer C++ projects to learn the fundamentals of the 
 Example:
 
 #include <iostream>
-```
+```cpp
 int main() {
   std::cout << "Hello World" << std::endl;
   return 0; // It is optional in C++, the compilers automatically include it.
@@ -36,7 +36,7 @@ int main() {
 - If the loop condition is initially false, the loop body won't be executed.
 
 Example:
-```
+```cpp
 int i = 0;
 while (i < 5) {
     // Loop body
@@ -53,7 +53,8 @@ while (i < 5) {
 
 Example:
 
-```int i = 0;
+```cpp
+int i = 0;
 do {
     // Loop body
     std::cout << i << std::endl;

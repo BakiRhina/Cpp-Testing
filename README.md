@@ -5,20 +5,29 @@ This repository contains begineer C++ projects to learn the fundamentals of the 
 ### Commands
 
 `std::cout`:
+
 `std::cin`:
+
 `std::wcout` and `std::wcin`:
+
 `std::endl`:
+
 `flush()`:
 
 ### Objects and vocabulary
 
 **Constructor**:
+
 **return 0;**:
+
 **Stream buffer**:
+
 **Data stream**:
+
 **Flush**:
 
 ### C++ architecture
 
 **C++ Versions**:
+
 **Hierarchy of C++**

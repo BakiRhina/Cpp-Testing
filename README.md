@@ -32,9 +32,10 @@ while (i < 5) {
 
   `do{}while();`
 
-Use a **do-while** loop when you want to ensure that the loop body is executed **at least once before checking** the loop condition.
-It's useful when you want to guarantee that a block of code runs before the condition is tested.
-If the loop condition is initially false, the loop body **will still execute once**.
+- Use a **do-while** loop when you want to ensure that the loop body is executed **at least once before checking** the loop condition.
+- It's useful when you want to guarantee that a block of code runs before the condition is tested.
+- If the loop condition is initially false, the loop body **will still execute once**.
+
 Example:
 
 ```int i = 0;

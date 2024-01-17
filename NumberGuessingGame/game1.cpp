@@ -13,14 +13,15 @@ int main() {
   */
   srand(time(NULL));
   random_number = rand()%10 + 1 ;
-  std::cout << "Guess the number between 1 and 10: ";
-  std::cin >> guess;
 
   while (true) {
+    std::cout << "Guess the number between 1 and 10: ";
+    std::cin >> guess;
     if (guess == random_number) {
       std::cout << "Correct!" << std::endl;
       break;
-  } else {
+    } else {
       std::cout << "Wrong, try again";
+    }
   }
 }
